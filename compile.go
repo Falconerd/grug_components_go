@@ -1,4 +1,4 @@
-package main
+package grug_components
 
 import (
 	"bytes"

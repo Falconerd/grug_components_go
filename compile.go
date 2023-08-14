@@ -69,7 +69,7 @@ func CompileHtml(inputHtml string) string {
 	})
 
 	// Serialize the modified HTML
-	htmlStr, err := doc.Find("body").Html()
+	htmlStr, err := doc.Html()
 	if err != nil {
 		fmt.Println("Error serializing HTML:", true, err)
 		return ""
